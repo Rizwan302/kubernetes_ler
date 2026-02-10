@@ -1,6 +1,6 @@
 ## 🗓 Daily Learning Tracker
 
-> ### ✅ Day 1 – Kubernetes Namespace Basics  
+> ### ✅ Day 1 – Kubernetes Namespace  
 > 📅 **Date:** ___________  
 >  
 > │ • Learned what a Kubernetes Namespace is  
@@ -13,6 +13,7 @@
 > │ kubectl get namespaces
 > │ kubectl apply -f namespace.yml
 > │ kubectl describe namespace dev
+> │ kubectl delete namespace dev
 > │ ```
 > │  
 > │ **File Created:**  
