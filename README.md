@@ -18,3 +18,14 @@
 > │  
 > │ **File Created:**  
 > │ • `namespace.yml`
+> 
+>  ### ✅ Day 2 – Namespace Practice  
+> │ • Deployed resources in a specific namespace  
+> │ • Used namespace flag in kubectl commands  ← **New point added**  
+> │ • Switched default namespace context  
+> │ • Deleted namespace after testing  
+> │  
+> │ **Commands:**  
+> │ kubectl get pods -n dev  
+> │ kubectl config set-context --current --namespace=dev  
+> │ kubectl delete namespace dev
