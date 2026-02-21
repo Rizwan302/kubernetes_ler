@@ -1,0 +1,16 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: hello-job
+  namespace: nginx
+spec:
+# Run multiple Pods at the same time:
+  completions: 1
+  parallelism: 1
+  template:
+    spec:
+      containers:
+      - name: job-container
+        image: busybox
+        command: ["sh", "-c", "echo Hello Kubernetes"]
+      restartPolicy: Never
