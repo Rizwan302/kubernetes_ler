@@ -1,0 +1,8 @@
+apiVersion: mycompany.com/v1
+kind: App
+metadata:
+  name: demo-app
+  namespace: apache
+spec:
+  image: apache
+  replicas: 2
